@@ -1,27 +1,41 @@
-.logo{
+.logo {
     display: flex;
     margin-right: 72px;
     align-items: center;
 }
-.logo-sq{
 
-    width: 100px;
-    height: 100px;
+.logo-sq {
+    width: 70px;
+    height: 70px;
     border-radius: 7px;
     background: #A0B0AD;
+    position: relative;
 }
-.logo-el{
 
+.logo-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
     border: 1px solid #CACEC4;
     border-radius: 50%;
-    width: 95%;
-    height: 95%;
-    background-color: rgba(0, 0, 0, 0.0); 
-
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.0);
 }
-/* .logo img{
 
+.logo img{
+position: absolute;
+top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
     width: 80%;
     height: 80%;
 
-} */
+}
