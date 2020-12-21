@@ -1,0 +1,32 @@
+/* по умолчанию*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-family: 'Montseratt';
+    color: 000;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,
+li {
+    display: block;
+}
+
+header a {
+    color: #000;
+}
+.menu{
+    display: flex;
+}
