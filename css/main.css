@@ -5,7 +5,7 @@ body {
     /* font-family: 'Open Sans'; */
     font-family: 'Montserrat';
     color: 000;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 h1,
@@ -66,4 +66,31 @@ li {
 
 .search{
     display: flex;
+    align-items: center;
+}
+
+.search-sq{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: #8AC3CB;
+    border-radius: 7px 0 0 7px;
+}
+.search-sq img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+}
+.search input{
+    height:  28px;
+    padding: 0;
+    margin: 0;
+    /* top: 0;left: 0;right: 0;bottom: 0; */
+    border-radius: 0 7px 7px 0;
+    background: linear-gradient(to bottom left, #9F9F9F, #686969 );
+    
 }
