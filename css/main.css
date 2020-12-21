@@ -45,14 +45,7 @@ li {
 
 }
 
-.logo{
-    display: flex;
-    margin-right: 72px;
-    align-items: center;
-     /* height: 50px;
-    vertical-align: middle;  */
-    
-}
+
 
 .menu{
     display: flex;
