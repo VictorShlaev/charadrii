@@ -51,6 +51,7 @@ li {
 .menu{
     display: flex;
 }
+
 .menu li a{
     font-weight: 600;
     letter-spacing: 0.03em;
@@ -64,6 +65,11 @@ li {
     opacity: 100%;
     transition: 0.4s;
     border-bottom:1px solid rgba(0, 0, 0, 0.7);
+}
+.current-menu-p{
+    opacity: 100%;
+    transition: 0.4s;
+    border-bottom:1px solid rgba(0, 0, 0, 0.7);  
 }
 .menu li{
     margin-right: 30px;
