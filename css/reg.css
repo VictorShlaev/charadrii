@@ -32,11 +32,11 @@ body{
 }
 
 .enter-mode{
-    color:#000;
+    color:#A0B0AD;
     margin-right: 40px;
 }
 .reg-mode{
-    color: #A0B0AD;
+    color: #000;
 }
 .mode a:hover{
     color: #000;
@@ -63,10 +63,10 @@ body{
     border-radius: 7px;
     margin-bottom: 10px;
 }
-.content a{
- text-decoration: none;
-}
-.btn-enter{
+
+
+.btn-reg{
+    text-decoration: none;
     color:#FFFEFE;
     background: #8acb98;
     transition: 0.4s;
@@ -77,39 +77,7 @@ body{
     border-radius: 7px;
     font-size: 24px;
 }
-.btn-enter:hover{
+.btn-reg:hover{
     background: #6db47c;
     transition: 0.4s;
 }
-
-.btn-remind{
-    margin-top: 10px;
-    transition: 0.4s;
-    color: #8acb98;
-}
-.btn-remind:hover{
-    color:#6db47c;
-    transition: 0.4s;
-}
-/* footer */
-
-footer{
-    border-top: 1px solid #D1DECF;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.links{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.links a{
-    margin-right: 30px;
-}
-
-
