@@ -1,0 +1,25 @@
+.autor{
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid #c3d9ce67;
+    width: 265px;
+    transition: 0.4s;
+    margin-right: 30px; 
+}
+
+.autor:hover{
+    border: 1px solid #7e8380d7;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #7e8380d7;
+}
+
+
+.autor>p{
+    text-align: center;
+}
+
+.autor-footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}

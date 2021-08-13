@@ -1,0 +1,66 @@
+.compos{
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid #c3d9ce67;
+    width: 265px;
+    height: 250px;
+    transition: 0.4s;
+    margin-right: 30px;
+}
+.compos:hover{
+    border: 1px solid #7e8380d7;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #7e8380d7;
+}
+
+
+.comp-title{
+    line-height: 0%;
+    letter-spacing: 0.05em;
+}
+.comp-name{
+    font-size: 14px;
+
+}
+.autor-name{
+    font-size: 10px;
+    font-weight: 400;
+}
+.comp-body{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.5em;
+}
+.comp-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.looked{
+    display: flex;
+    align-items: center;
+    /* margin-right: 100px; */
+}
+
+.looked img{
+    height: 30px;
+    margin-right: 2px;
+}
+.liked{
+    display: flex;
+    align-items: center;
+}
+
+.liked img{
+    height: 30px;
+    margin-right: 2px;
+    color: black;
+    transition: 0.4s;
+}
+
+.liked img:hover{
+    mask: #f8feff;
+    transition: 0.4s;
+}

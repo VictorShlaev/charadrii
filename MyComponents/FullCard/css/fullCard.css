@@ -1,0 +1,29 @@
+
+.window{
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    background: #DCDCDC;
+    opacity: 0.9;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+}
+.win-content{
+    width: 1160px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.win-content p{
+    text-align: center;
+}
+
+
